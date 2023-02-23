@@ -5,7 +5,7 @@ set(srcs
     )
 
 
-idf_component_register(SRCS ${srcs}
+idf_build_component(SRCS ${srcs}
                     INCLUDE_DIRS "."
                     )
 
