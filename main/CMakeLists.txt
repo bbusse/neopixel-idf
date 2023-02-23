@@ -1,9 +1,4 @@
 cmake_minimum_required(VERSION 3.16)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-set(srcs 
-		"main.c"
-    )
-
-
 idf_build_component(".")
 project(leds)
